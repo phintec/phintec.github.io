@@ -1,0 +1,11 @@
+// Created by iWeb 3.0.1 local-build-20091015
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_0:new IWStrokeParts([{rect:new IWRect(-7,5,11,172),url:'Timeshare_Resort_files/stroke.png'},{rect:new IWRect(-4,-4,8,9),url:'Timeshare_Resort_files/stroke_1.png'},{rect:new IWRect(4,-6,270,11),url:'Timeshare_Resort_files/stroke_2.png'},{rect:new IWRect(274,-5,12,10),url:'Timeshare_Resort_files/stroke_3.png'},{rect:new IWRect(274,5,13,172),url:'Timeshare_Resort_files/stroke_4.png'},{rect:new IWRect(274,177,13,11),url:'Timeshare_Resort_files/stroke_5.png'},{rect:new IWRect(4,177,270,11),url:'Timeshare_Resort_files/stroke_6.png'},{rect:new IWRect(-6,177,10,10),url:'Timeshare_Resort_files/stroke_7.png'}],new IWSize(281,182)),stroke_1:new IWStrokeParts([{rect:new IWRect(-7,5,11,193),url:'Timeshare_Resort_files/stroke_8.png'},{rect:new IWRect(-4,-4,8,9),url:'Timeshare_Resort_files/stroke_9.png'},{rect:new IWRect(4,-6,272,11),url:'Timeshare_Resort_files/stroke_10.png'},{rect:new IWRect(276,-5,11,10),url:'Timeshare_Resort_files/stroke_11.png'},{rect:new IWRect(276,5,13,193),url:'Timeshare_Resort_files/stroke_12.png'},{rect:new IWRect(276,198,13,11),url:'Timeshare_Resort_files/stroke_13.png'},{rect:new IWRect(4,198,272,11),url:'Timeshare_Resort_files/stroke_14.png'},{rect:new IWRect(-6,198,10,10),url:'Timeshare_Resort_files/stroke_15.png'}],new IWSize(283,203)),shadow_2:new IWShadow({blurRadius:15,offset:new IWPoint(10.6066,10.6066),color:'#83694b',opacity:0.750000}),shadow_1:new IWShadow({blurRadius:15,offset:new IWPoint(10.6066,10.6066),color:'#83694b',opacity:0.750000}),reflection_0:new IWReflection({opacity:0.50,offset:1.00}),shadow_0:new IWShadow({blurRadius:15,offset:new IWPoint(10.6066,10.6066),color:'#83694b',opacity:0.750000}),shadow_3:new IWShadow({blurRadius:15,offset:new IWPoint(10.6066,10.6066),color:'#83694b',opacity:0.750000})});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('Timeshare_Resort_files/Timeshare_ResortMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');fixupAllIEPNGBGs();Widget.onload();fixAllIEPNGs('Media/transparent.gif');applyEffects()}
+function onPageUnload()
+{Widget.onunload();}
